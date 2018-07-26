@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     rm -rf /var/lib/apt/lists/*
 
 # Upgrade pip 
-#RUN alias python=python3 
+RUN ln -s -f /usr/bin/python3 /usr/bin/python
 RUN python3 -m pip install pip --upgrade 
 RUN python3 -m pip install wheel
 
