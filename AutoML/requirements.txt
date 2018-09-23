@@ -1,0 +1,10 @@
+deap
+nose
+numpy==1.12.1
+scikit-learn
+scipy
+tqdm
+update-checker
+stopit
+pandas
+xgboost
